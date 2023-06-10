@@ -8,7 +8,7 @@ namespace emptySQLProject
         static void Main(string[] args)
         {
             try
-            {
+            {//gggfff
                 SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
                 builder.DataSource = "(localdb)\\MSSQLLocalDB";
                 builder.InitialCatalog = "fakeDB";
